@@ -1,5 +1,6 @@
 require "sinatra/reloader" if development?
 
 get "/" do
-  "Hello World!"
+  string = CONFIG['key']
+  "Hello World! #{string}"
 end
