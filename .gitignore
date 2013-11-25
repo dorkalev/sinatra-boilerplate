@@ -1,7 +1,6 @@
 tmp
 tmp/**
 .rspec
-.irbrc
 tags
 uploads/
 public/
