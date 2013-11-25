@@ -24,9 +24,6 @@ Spork.prefork do
     #     --seed 1234
     config.order = 'random'
 
-    config.before(:each) do
-      @before_each = $redis.flushdb
-    end
   end
 
 
