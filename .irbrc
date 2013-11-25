@@ -1,5 +1,5 @@
 puts "Loading Sinatra...."
-require '/Users/erez/workspace/media/load_app.rb'
+require './load_app.rb'
 puts "Sinatra Loaded!"
 
 IRB.conf[:SAVE_HISTORY] = 100
