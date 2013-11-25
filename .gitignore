@@ -1,0 +1,9 @@
+tmp
+tmp/**
+.rspec
+.irbrc
+tags
+uploads/
+public/
+config/unicorn.dev.rb
+.DS_Store
