@@ -6,7 +6,6 @@ gem 'unicorn'
 gem 'god'
 gem 'airbrake'
 
-
 group :development do
   gem 'capistrano','~> 2.15.4'
 end
