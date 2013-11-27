@@ -6,3 +6,4 @@ uploads/
 public/
 config/unicorn.dev.rb
 .DS_Store
+Gemfile.lock
