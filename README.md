@@ -12,7 +12,8 @@ A Sinatra application skeleton to start your new project with.
 6. Unicorn configuration template.
 7. Capistrano deployment template.
 8. God configuration that will keep your site always up.
-8. Airbrake integration for error reporting.
+9. Airbrake integration for error reporting.
+10. Auto-load changed files on development environment for fast development.
 
 == Directory Structure
 
@@ -54,3 +55,22 @@ You will have to fill in your application name, github repository and some
 other basic parameters.
 You will also have to fill your remote server ip on `config/deploy/production.rb`
 
+== God
+
+The god ruby-gem is included in the Gemfile.
+`config/god/unicorn.rb.erb` is a god template that ensures that:
+1. Your Unicorn master is always up.
+2. Unicorn instances memory consumption is below 400MB.
+
+== Airbrake
+
+`config/initializers/airbrake.rb` initializes the Sinatra app to report its
+exceptions to Airbrake.
+You have to fill in your Airbrake token.
+
+= Usage
+
+1. `git clone repository`
+2. `bundle install`
+3. `rspec spec` to make sure everything went OK.
+4. Fill in the gaps 

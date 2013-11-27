@@ -1,1 +1,1 @@
-server "your.ip.here", :web, :app
+server "[TODO] Server IP", :web, :app

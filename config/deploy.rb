@@ -8,12 +8,12 @@ require 'capistrano/ext/multistage'
 # -------------------------------------------
 # Main Configuration
 # -------------------------------------------
-set :application, "application name"
-set :repository,  "application repository"
+set :application, "[TODO] Application Name"
+set :repository,  "[TODO] GitHub Repository"
 set :scm, :git
 set :deploy_via, :remote_cache
 set :user, :deploy
-set :deploy_to, 'some direcotry here'
+set :deploy_to, '[TODO] Deploy Directory'
 set :branch, fetch(:branch, "master")
 set :use_sudo, false
 ssh_options[:paranoid] = false
