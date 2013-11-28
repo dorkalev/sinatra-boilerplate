@@ -13,7 +13,9 @@ A Sinatra application skeleton to start your new project with.
 7. Capistrano deployment template.
 8. God configuration that will keep your site always up.
 9. Airbrake integration for error reporting.
-10. Auto-load changed files on development environment for fast development.
+9. Auto-load changed files on development environment for fast development.
+
+---
 
 ### Directory Structure
 
@@ -26,10 +28,10 @@ environment.
 
 ### Testing Infrastructure
 
-RSpec, Guard and Spork gems are in the Gemfile.
-RSpec includes `Rack::Test` to enable Sinatra testing.
-An example for server, lib and helpers specs.
-Spork configuration to reload files between specs run.
+* RSpec, Guard and Spork gems are in the Gemfile.
+* RSpec includes `Rack::Test` to enable Sinatra testing.
+* An example for server, lib and helpers specs.
+* Spork configuration to reload files between specs run.
 
 ### Console
 
@@ -59,8 +61,8 @@ You will also have to fill your remote server ip on `config/deploy/production.rb
 
 The god ruby-gem is included in the Gemfile.
 `config/god/unicorn.rb.erb` is a god template that ensures that:
-1. Your Unicorn master is always up.
-2. Unicorn instances memory consumption is below 400MB.
+* Your Unicorn master is always up.
+* Unicorn instances memory consumption is below 400MB.
 
 ### Airbrake
 
@@ -68,13 +70,15 @@ The god ruby-gem is included in the Gemfile.
 exceptions to Airbrake.
 You have to fill in your Airbrake token.
 
+---
+
 ## Usage
 
-1. `git clone repository`
+1. `git clone git@github.com:FTBpro/sinatra-boilerplate.git`
 2. `git remote rm origin`
 3. `git remote add origin git@github.com:my_org/my_repo.git`
 4. `bundle install`
 5. `rspec spec` to make sure everything went OK
-6. Search for [TODO] and fill in the missing parameters
-7. TDD your awesome server
+6. Search for [TODO] in project files and fill in the missing parameters
+7. TDD your awesome server - use `guard` to have fast feedback loop.
 8. Run `rackup` and open `http://localhost:9292` to see it in action
