@@ -11,6 +11,7 @@ group :development do
 end
 
 group :test, :development do
+  gem 'shotgun'
   gem 'guard-rspec'
   gem 'debugger'
   gem 'guard-spork'

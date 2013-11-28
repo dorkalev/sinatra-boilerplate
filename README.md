@@ -81,4 +81,4 @@ You have to fill in your Airbrake token.
 5. `rspec spec` to make sure everything went OK
 6. Search for [TODO] in project files and fill in the missing parameters
 7. TDD your awesome server - use `guard` to have fast feedback loop.
-8. Run `rackup` and open `http://localhost:9292` to see it in action
+8. Run `shotgun` and open `http://localhost:9393` to see it in action
