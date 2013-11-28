@@ -17,7 +17,7 @@ A Sinatra application skeleton to start your new project with.
 
 ### Directory Structure
 
-![Directory Structure](https://docs.google.com/drawings/d/1OCudHPpik4XHbPQ9v4e_4cD724Se8Alr7aRXtRtbJ-A/pub?w=830&amp;h=1116)
+![Directory Structure](https://docs.google.com/drawings/d/1OCudHPpik4XHbPQ9v4e_4cD724Se8Alr7aRXtRtbJ-A/pub?w=553&h=744)
 
 ### App Loader
 
